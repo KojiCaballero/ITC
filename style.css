@@ -1,1 +1,90 @@
+/* Reset some default styles */
+body, h1, h2, p, label {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f2; /* Light background */
+    color: #222725; /* Dark text */
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #121113; /* Dark header */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #e4e6c3; /* Light text */
+}
+
+.w3-row-padding {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.w3-content {
+    width: 100%;
+}
+
+.converter {
+    background-color: #899878; /* Box background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Fixed width for boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center; /* Center text in boxes */
+}
+
+.converter:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.converter h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px; /* Space below title */
+}
+
+.converter label {
+    display: block; /* Make label block for better spacing */
+    margin: 10px 0; /* Space around labels */
+}
+
+.converter input {
+    width: 80%; /* Input width */
+    padding: 10px;
+    border: 1px solid #222725; /* Dark border */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space below input */
+}
+
+.converter button {
+    background-color: #222725; /* Dark button background */
+    color: #e4e6c3; /* Light button text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.converter button:hover {
+    background-color: #121113; /* Darker on hover */
+}
+
+.result-box {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e4e6c3; /* Light result box */
+    color: #222725; /* Dark text for results */
+    border-radius: 5px;
+}
