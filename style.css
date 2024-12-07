@@ -36,12 +36,12 @@ header h1 {
 .converter {
     background-color: #899878; /* Box background */
     border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
+    padding: 70px;
+    margin: 30px;
     width: 300px; /* Fixed width for boxes */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
-    text-align: center; /* Center text in boxes */
+    text-align: justified; /* Center text in boxes */
 }
 
 .converter:hover {
