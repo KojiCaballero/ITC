@@ -44,6 +44,16 @@ header h1 {
     text-align: center; /* Center text in boxes */
 }
 
+/* New styles for anchor tags */
+.converter a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent element */
+}
+
+.converter a:hover {
+    color: #e4e6c3; /* Optional hover color change */
+}
+
 .converter:hover {
     transform: scale(1.05); /* Slightly enlarge on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
