@@ -100,30 +100,29 @@ header h1, h5{
 }
 
 /* Table Styles */
-#payrollTable {
+table {
     width: 100%; /* Full width of the container */
     border-collapse: collapse; /* Collapse borders */
     margin-top: 20px; /* Space above the table */
 }
 
-#payrollTable th, 
-#payrollTable td {
+th, td {
     padding: 12px; /* Padding inside cells */
     text-align: center; /* Center text in cells */
     border: 1px solid #222725; /* Dark border for cells */
 }
 
-#payrollTable th {
+th {
     background-color: #899878; /* Header background color */
     color: #e4e6c3; /* Light text color for header */
     font-size: 1.2em; /* Slightly larger font size for header */
 }
 
-#payrollTable tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #f7f7f2; /* Light background for even rows */
 }
 
-#payrollTable tr:hover {
+tr:hover {
     background-color: #d1d1c8; /* Highlight row on hover */
     cursor: pointer; /* Change cursor to pointer on hover */
 }
