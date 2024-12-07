@@ -5,28 +5,29 @@ body, h1, h2, p, label {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f2; /* Light background */
-    color: #222725; /* Dark text */
+    background-color: #f7f7f2;
+    color: #222725;
     line-height: 1.6;
 }
 
-header, footer{
+header, footer {
     text-align: center;
     padding: 20px;
-    background-color: #121113; /* Dark header */
+    background-color: #121113;
 }
 
 h2, p {
    color: #f7f7f2; 
 }
-header h1{
+
+header h1 {
     font-size: 2.5em;
-    color: #e4e6c3; /* Light text */
+    color: #e4e6c3;
 }
 
 .w3-row-padding {
     display: flex;
-    justify-content: center; /* Center items horizontally */
+    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -36,52 +37,51 @@ header h1{
 }
 
 .converter {
-    background-color: #899878; /* Box background */
+    background-color: #899878;
     border-radius: 10px;
-    padding: 70px; /* Adjust padding as needed */
-    margin: 30px; /* Space between boxes */
-    width: 400px; /* Increased width for boxes */
+    padding: 70px;
+    margin: 30px;
+    width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
-    text-align: center; /* Center text in boxes */
+    text-align: center;
 }
 
-/* New styles for anchor tags */
 .converter a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit color from parent element */
+    text-decoration: none;
+    color: inherit;
 }
 
 .converter a:hover {
-    color: #e4e6c3; /* Optional hover color change */
+    color: #e4e6c3;
 }
 
 .converter:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .converter h2 {
     font-size: 1.5em;
-    margin-bottom: 10px; /* Space below title */
+    margin-bottom: 10px;
 }
 
 .converter label {
-    display: block; /* Make label block for better spacing */
-    margin: 10px 0; /* Space around labels */
+    display: block;
+    margin: 10px 0;
 }
 
 .converter input {
-    width: calc(100% - 20px); /* Full width minus padding for input fields */
+    width: calc(100% - 20px);
     padding: 10px;
-    border: 1px solid #222725; /* Dark border */
+    border: 1px solid #222725; 
     border-radius: 5px;
-    margin-bottom: 10px; /* Space below input */
+    margin-bottom: 10px; 
 }
 
 .converter button {
-    background-color: #222725; /* Dark button background */
-    color: #e4e6c3; /* Light button text */
+    background-color: #222725; 
+    color: #e4e6c3; 
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -90,100 +90,92 @@ header h1{
 }
 
 .converter button:hover {
-    background-color: #121113; /* Darker on hover */
+    background-color: #121113; 
 }
 
 .result-box {
     margin-top: 10px;
     padding: 10px;
-    background-color: #e4e6c3; /* Light result box */
-    color: #222725; /* Dark text for results */
+    background-color: #e4e6c3; 
+    color: #222725; 
     border-radius: 5px;
 }
 
-/* Table Styles */
 table {
-    width: 100%; /* Full width of the container */
-    border-collapse: collapse; /* Collapse borders */
-    margin-top: 20px; /* Space above the table */
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
 }
 
 th, td {
-    padding: 12px; /* Padding inside cells */
-    text-align: center; /* Center text in cells */
-    border: 1px solid #222725; /* Dark border for cells */
+    padding: 12px; 
+    text-align: center; 
+    border: 1px solid #222725; 
 }
 
 th {
-    background-color: #899878; /* Header background color */
-    color: #e4e6c3; /* Light text color for header */
-    font-size: 1.2em; /* Slightly larger font size for header */
+    background-color: #899878; 
+    color: #e4e6c3; 
+    font-size: 1.2em; 
 }
 
 tr:nth-child(even) {
-    background-color: #f7f7f2; /* Light background for even rows */
+    background-color: #f7f7f2; 
 }
 
 tr:hover {
-    background-color: #d1d1c8; /* Highlight row on hover */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: #d1d1c8; 
+    cursor: pointer; 
 }
 
 .flex-container {
-    display: flex; /* Enables flexbox layout */
-    justify-content: space-between; /* Distributes space between items */
-    align-items: flex-start; /* Aligns items at the start of the container */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
 
 .input-container {
-    margin-right: 20px; /* Space between input container and table */
-    flex: 1; /* Allows the input container to grow */
+    margin-right: 20px; 
+    flex: 1; 
 }
 
-/* Modal Styles */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1000; /* Sit on top */
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
-/* Modal Content */
 .modal-content {
-    background-color: #f7f7f2; /* Light background for modal content */
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px; /* Padding inside modal */
-    border: 1px solid #222725; /* Dark border for modal */
-    border-radius: 10px; /* Rounded corners */
-    width: 80%; /* Width of modal */
-    max-width: 500px; /* Maximum width of modal */
+    background-color: #f7f7f2; 
+    margin: 15% auto; 
+    padding: 20px; 
+    border: 1px solid #222725; 
+    border-radius: 10px; 
+    width: 80%; 
+    max-width: 500px; 
 }
 
-/* Close Button */
 .close {
-    color: #222725; /* Dark color for close button */
-    float: right; /* Align to the right */
-    font-size: 28px; /* Size of close button */
-    font-weight: bold; /* Bold text for visibility */
+   color:#222725;  
+   float:right;  
+   font-size :28 px ;  
+   font-weight:bold ;  
 }
-
 .close:hover,
-.close:focus {
-    color: #e4e6c3; /* Light color on hover/focus */
-    text-decoration: none; /* No underline on hover/focus */
-    cursor: pointer; /* Pointer cursor on hover */
+.close :focus{
+   color:#e4e6c3 ;  
+   text-decoration:none ;  
+   cursor:pointer ;  
 }
-
-/* Modal Header and Footer Styles (Optional) */
-.modal-header {
-    font-size: 1.5em; /* Larger font size for header */
+.modal-header{
+   font-size :1.5 em ;  
 }
-
-.modal-footer {
-    text-align: right; /* Align footer buttons to the right */
+.modal-footer{
+   text-align:right ;  
 }
