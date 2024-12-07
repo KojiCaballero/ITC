@@ -98,3 +98,80 @@ header h1 h5{
     color: #222725; /* Dark text for results */
     border-radius: 5px;
 }
+
+/* Table Styles */
+#payrollTable {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+#payrollTable th, 
+#payrollTable td {
+    padding: 12px; /* Padding inside cells */
+    text-align: center; /* Center text in cells */
+    border: 1px solid #222725; /* Dark border for cells */
+}
+
+#payrollTable th {
+    background-color: #899878; /* Header background color */
+    color: #e4e6c3; /* Light text color for header */
+    font-size: 1.2em; /* Slightly larger font size for header */
+}
+
+#payrollTable tr:nth-child(even) {
+    background-color: #f7f7f2; /* Light background for even rows */
+}
+
+#payrollTable tr:hover {
+    background-color: #d1d1c8; /* Highlight row on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #f7f7f2; /* Light background for modal content */
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px; /* Padding inside modal */
+    border: 1px solid #222725; /* Dark border for modal */
+    border-radius: 10px; /* Rounded corners */
+    width: 80%; /* Width of modal */
+    max-width: 500px; /* Maximum width of modal */
+}
+
+/* Close Button */
+.close {
+    color: #222725; /* Dark color for close button */
+    float: right; /* Align to the right */
+    font-size: 28px; /* Size of close button */
+    font-weight: bold; /* Bold text for visibility */
+}
+
+.close:hover,
+.close:focus {
+    color: #e4e6c3; /* Light color on hover/focus */
+    text-decoration: none; /* No underline on hover/focus */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Modal Header and Footer Styles (Optional) */
+.modal-header {
+    font-size: 1.5em; /* Larger font size for header */
+}
+
+.modal-footer {
+    text-align: right; /* Align footer buttons to the right */
+}
