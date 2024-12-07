@@ -24,7 +24,7 @@ header h1 {
 
 .w3-row-padding {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Center items horizontally */
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -36,12 +36,12 @@ header h1 {
 .converter {
     background-color: #899878; /* Box background */
     border-radius: 10px;
-    padding: 70px;
-    margin: 30px;
-    width: 300px; /* Fixed width for boxes */
+    padding: 70px; /* Adjust padding as needed */
+    margin: 30px; /* Space between boxes */
+    width: 400px; /* Increased width for boxes */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
-    text-align: justified; /* Center text in boxes */
+    text-align: center; /* Center text in boxes */
 }
 
 .converter:hover {
@@ -60,7 +60,7 @@ header h1 {
 }
 
 .converter input {
-    width: 80%; /* Input width */
+    width: calc(100% - 20px); /* Full width minus padding for input fields */
     padding: 10px;
     border: 1px solid #222725; /* Dark border */
     border-radius: 5px;
